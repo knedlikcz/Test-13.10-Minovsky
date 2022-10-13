@@ -182,7 +182,36 @@ table.tr{
     overflow: hidden;
 }
 
+.members nav ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
 .members{
     text-align: center;
     background-color: var(--clr-primary);
+}
+
+.members nav ul li{
+    margin-top: 1em;
+background-color: royalblue;
+}
+
+#img1{
+    background-color: saddlebrown;
+}
+#img2{
+    background-color: red;
+}
+#img3{
+    background-color: yellow;
+}
+#img4{
+    background-color: rgb(105, 0, 58);
+}
+#img5{
+    background-color: rgb(12, 154, 211);
+}
+#img6{
+    background-color: rgb(70, 255, 101);
 }
