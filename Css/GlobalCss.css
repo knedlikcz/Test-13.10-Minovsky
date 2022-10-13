@@ -177,6 +177,12 @@ table.tr{
     }
 }
 
-.BetterNews{
-    display: grid;
+.members img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.members{
+    text-align: center;
+    background-color: var(--clr-primary);
 }
