@@ -132,3 +132,51 @@ table{
 table.tr{
     margin-top: 1rem;
 }
+
+.News{
+    text-align: center;
+    padding: 15vh 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.Info1{
+    background-color: var(--clr-accent);
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    overflow:hidden;
+}
+
+.intro1{
+    margin: 1em;
+    max-width: 10em;
+}
+
+.intro1 h2{
+    font-size: 1.5;
+}
+
+.New1{
+    align-items: flex-start;
+    align-self: center;
+}
+
+@media only screen and (max-width:750px){
+    section{
+        text-align: center;
+    }
+
+    .News{
+        text-align: center;
+        padding: 15vh 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+}
+
+.BetterNews{
+    display: grid;
+}
